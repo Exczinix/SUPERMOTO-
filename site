@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermoto Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        /* Navigatie */
+        .navbar {
+            display: flex;
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            flex: 1;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+        }
+        /* Pagina secties */
+        .tabcontent {
+            display: none;
+            padding: 20px;
+        }
+        .active-tab {
+            display: block;
+        }
+        /* Galerij */
+        .gallery img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /* Verkoop items */
+        .item {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .item button {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a onclic
